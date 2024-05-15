@@ -1,0 +1,23 @@
+{
+    "name": "ingri/bienesraices",
+    "description": "Creando un POO",
+    "type": "project",
+    "authors": [
+    {
+        "name": "Stephania",
+        "email": "correo@correo.com"
+    }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./model",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
